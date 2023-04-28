@@ -1,29 +1,28 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 using namespace std;
-class PoligonoRegular
-{
+class PoligonoRegular {
 public:
-    // Constructor
-    PoligonoRegular(int lados = 0, double comprimento = 0);
+  // Constructor
+  PoligonoRegular(int lados = 0, double comprimento = 0);
 
-    // Getter methods
-    int getLados() const;
-    double getComprimento() const;
+  // Getter methods
+  int getLados() const;
+  double getComprimento() const;
 
-    // Setter methods
-    void setLados(int lados);
-    void setComprimento(double comprimento);
+  // Setter methods
+  void setLados(int lados);
+  void setComprimento(double comprimento);
 
-    // Area and perimeter calculation methods
-    double calcularArea() const;
-    double calcularPerimetro() const;
+  // Area and perimeter calculation methods
+  double calcularArea() const;
+  double calcularPerimetro() const;
 
-    // Method to print the name of the polygon based on its number of sides
-    void imprimirNome() const;
+  // Method to print the name of the polygon based on its number of sides
+  void imprimirNome() const;
 
 private:
-    int lados_;
-    double comprimento_;
+  int lados_;
+  double comprimento_;
 };

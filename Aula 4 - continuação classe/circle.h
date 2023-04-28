@@ -6,26 +6,25 @@
 
 class Circle {
 private:
-    float radius;
-    int x, y;
+  float radius;
+  int x, y;
+
 public:
+  // Construtores e Destrutores
+  Circle();
+  Circle(float, int = 0, int = 0);
+  ~Circle() {}
 
-    // Construtores e Destrutores
-    Circle();
-    Circle(float, int = 0, int = 0);
-    ~Circle() {}
+  // Funções de interface
+  float area();
+  float perimeter();
+  void set_radius(float);
+  void set_origin(int, int);
+  float get_radius();
 
-    // Funções de interface
-    float area();
-    float perimeter();
-    void set_radius(float);
-    void set_origin(int, int);
-    float get_radius();
-
-    // retorna o valor de area para um circulo
-    // qualquer cujo raio é passado como parametro
-    static float circle_area(float);
+  // retorna o valor de area para um circulo
+  // qualquer cujo raio é passado como parametro
+  static float circle_area(float);
 };
 
 #endif
-
