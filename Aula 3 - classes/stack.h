@@ -6,23 +6,23 @@
 
 class Pilha {
 
-	private:
-		int *dados;
-		int topo;
-		int tamanho;
+private:
+    int *dados;
+    int topo;
+    int tamanho;
 
-		// função utiltária (ou auxiliar)
-		void aloca_memoria();
+    // função utiltária (ou auxiliar)
+    void aloca_memoria();
 
-	public:
-		Pilha();
-		Pilha(int);
-		~Pilha();
+public:
+    Pilha();
+    Pilha(int);
+    ~Pilha();
 
-		bool empty(); // verifica se vazia (Função de acesso)
-		void push(int); // insere no topo
-		int top(); // visualiza topo
-		int pop(); // retira do topo
+    bool empty(); // verifica se vazia (Função de acesso)
+    void push(int); // insere no topo
+    int top(); // visualiza topo
+    int pop(); // retira do topo
 };
 
 #endif

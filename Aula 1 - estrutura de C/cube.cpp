@@ -8,17 +8,17 @@ int cube(int);
 
 int main()
 {
-	cout << "Entre com um numero inteiro: "; // Não é necessário std::
+    cout << "Entre com um numero inteiro: "; // Não é necessário std::
 
-	int number = 0;
-	//cin >> number;
+    int number = 0;
+    //cin >> number;
 
-	cout << "Resultado: " << number << "^3 = " << cube(number) << endl;
+    cout << "Resultado: " << number << "^3 = " << cube(number) << endl;
 }
 
 // definição da função
 int cube(int n)
 {
-	return n*n*n;
+    return n*n*n;
 }
 

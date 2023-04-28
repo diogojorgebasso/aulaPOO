@@ -7,11 +7,11 @@ Posicao::Posicao(int xx, int yy) : x{xx}, y{yy} {}
 
 Posicao& Posicao::move_to(int xx, int yy)
 {
-	x += xx;
-	y = yy;
-	return *this;
+    x += xx;
+    y = yy;
+    return *this;
 }
 
 void Posicao::imprime() {
-	cout << "(" << x << ", " << y << ")";
+    cout << "(" << x << ", " << y << ")";
 }
