@@ -1,20 +1,20 @@
 # 6 º Laboratório ECOP13A - Herança – 05 de maio 2023
 
-## 1 Construa classes para representar uma _hierarquia_ Politico / Presidente / Governador / Prefeito
+## 1. Construa classes para representar uma _hierarquia_ Politico / Presidente / Governador / Prefeito
 
 I. Acrescente uma função `Imprime()` em cada uma das classes.
 II. No construtor de cada classe, acrescente mensagens de depuração para saber
 por onde o programa está passando enquanto é executado.
 III. Utilize as funções definidas nas classes bases dentro das classes derivadas.
 
-## 2 Crie uma hierarquia de classes para representar a hierarquia Ponto/Circulo/Cilindro
+## 2. Crie uma hierarquia de classes para representar a hierarquia Ponto/Circulo/Cilindro
 
 Considere que o Cilindro é um Circulo com altura diferente de zero e que o Circulo _é um_ Ponto com raio diferente de zero.
 
 Além dos construtores, métodos de acesso, operadores de leitura (>>) e impressão (<<), implemente as funções `area()` e
 `volume()` para a dada hierarquia.
 
-## 3 Método de Newton
+## 3. Método de Newton
 
 Encontre pelo menos uma raiz real da equação $p(x)=a_0 +a_1x+...+a_nx^n /forall ( _n > 2_ )$, utilizando o método de Newton
 
@@ -31,7 +31,7 @@ III. Dado um polinômio _p_ ( _x_ ), uma aproximação inicial _x 0_ e o número
 iterações que devem ser executadas, calcule uma raiz real pelo método de
 Newton, se ela existir.
 
-## 4 Analise a classe de exemplo do Livro do Deitel
+## 4. Analise a classe de exemplo do Livro do Deitel
 
 Ela representa o número de telefone formatado no modo internacional. Sua função é alterar essa classe com o formato utilizado no Brasil.
 
